@@ -1,0 +1,47 @@
+if 1........
+	....
+else if 2....
+	.......
+else if 3 ....
+	,.....
+else if 4....
+	.....
+else 
+	........
+
+
+
+
+
+int val=1;
+switch ( val )
+{
+	case 3:
+			printf("value is 3");
+	default: 
+			printf("this is not good value");
+	case 1 :     -> val == 1 
+			prinitf("value is 1);
+	case 2 : 
+			printf("value is 2");
+
+}//switch ending
+
+
+
+
+
+https://github.com/Prudhvi-69/C-DSA-CEC
+
+
+
+
+
+
+
+
+
+
+
+
+

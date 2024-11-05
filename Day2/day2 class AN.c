@@ -36,3 +36,7 @@ void main()
     printf("\nResult : %f5",res);//to get the accurate results 
 //when the division is performed
 }
+//all these files are going to be synced in git
+//also today i'll upload some assignment in it
+//tomorrow finish them and come back with answers
+

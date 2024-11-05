@@ -1,0 +1,73 @@
+A - Z : 65 to 90
+a - z : 97 to 122
+0 - 9 : 48 to 57
+
+* -> 42
+  -> 32 
+/
+'
+"
++ - * / . )  & ^ % $ # @ ! ( - _ -)= [ ' _ ' ] {~ . ~}  
+
+ASCII -> 
+
+escape sequences ->>>>   \n , \0, \a, 
+
+
+Conditional Statements
+
+1. if condition
+2. if else 
+3. nested if else
+4. else if ladder
+5. switch case
+
+
+
+
+Grouping Elements/Symbols : 
+
+{ }
+[ ] 
+( )
+< >
+" "
+
+//Applicable for all the students
+if ( boys == false)
+	stay.Silent();
+if ( ! boys != false )
+	stay.Silent();
+else 
+	youCan.talk()
+
+
+
+take a number input and check if it is ranging between 
+10 and 20 and if it is true, display CITYYYYYYYYYYYYYY
+if not display badCITYYYYYYYYYYYYYYYYYY 
+
+
+
+
+
+
+take any character input and display the respective upper
+case or lowercase alternative for it..
+
+ex: 
+input  : m
+ouput : M
+
+input   : X
+output : x
+										14:36 05-11-2024
+
+
+
+
+
+
+
+
+
