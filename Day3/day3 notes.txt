@@ -1,0 +1,94 @@
+CEC CEC CEC CEC CEC 
+CEC CEC CEC CEC CEC 
+CEC CEC CEC CEC CEC 
+CEC CEC CEC CEC CEC 
+CEC CEC CEC CEC CEC 
+CEC CEC CEC CEC CEC 
+CEC CEC CEC CEC CEC 
+
+5 in each row,
+total of 7 rows 
+
+
+
+take two integer inputs
+1st one : number of rows you want 
+2nd one : number of values in each row
+
+input1 : 7
+input2 : 5
+condition : do not use more than 1 printf sttt
+output : 
+CEC CEC CEC CEC CEC 
+CEC CEC CEC CEC CEC 
+CEC CEC CEC CEC CEC 
+CEC CEC CEC CEC CEC 
+CEC CEC CEC CEC CEC 
+CEC CEC CEC CEC CEC 
+CEC CEC CEC CEC CEC 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function call stack
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,12 @@
+fun1()
+{
+	fun2(); //
+}
+fun2()
+{
+	return;
+}
+void main()
+{
+	fun1();
+}
