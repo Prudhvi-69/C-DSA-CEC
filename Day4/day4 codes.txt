@@ -1,0 +1,186 @@
+// // // #include<stdio.h>
+// // // void function_to_display()
+// // // {
+// // //       for(int i=1;i<=7;i++)
+// // //         printf("ooops  ");
+// // //     printf("\n");
+
+// // // }
+// // // void main()
+// // // {
+// // //     printf("1st time : ");
+// // //     function_to_display();
+// // //     int a,b;
+// // //     scanf("%d%d",&a,&b);
+// // //     int c=a+b;
+// // //     printf("\nSUM is : %d \n",c);
+// // //     printf("2nd time : ");
+// // //     function_to_display();
+
+// // //     printf("3rd time : ");
+// // //     function_to_display();
+
+
+// // // // }
+// // // #include<stdio.h>
+// // // void display(int value)
+// // // {       //Recusrive function call calling itself
+// // //   if(value==0)
+// // //             return;
+// // //   printf("%d ",value);
+// // //   value--;
+// // //   display(value);
+// // // }
+// // // void main()
+// // // {
+// // //      int value;
+// // //      scanf("%d",&value);
+// // //     display(value);
+// // // }
+// // // // printf("sidraj is good boy");
+// // // // printf("sir is very funny");
+// // // // printf("he always tells us jokes");
+
+// // // //    display(value);
+
+
+
+
+
+
+
+
+
+// // // #include<stdio.h>
+// // // int d; 
+// // // void abc()
+// // // {
+// // //     int x=10;
+// // //     d=44;
+// // //     printf("\n Value of X in function : %d\n",x);
+// // //     printf("\nvalue is d in abc is : %d",d);
+// // // }
+// // // void main()
+// // // {
+// // //     int x=69;
+// // //     d=33;
+// // //     abc();
+// // //     printf("\nValue of X in Main function : %d ",x);
+// // //     printf("\nvalue is d in main is : %d",d);
+// // // }
+
+
+
+// // // #include<stdio.h>
+// // // void add(int number) //10,32,99,26,69
+// // // {
+// // //     static int sum=100;
+// // //     sum=sum+number; //10, 42, 141, 167, 236
+// // //     printf("\nSUM : %d",sum);
+// // // }
+// // //
+// // #include<stdio.h>
+// // void main()
+// // {
+// //     int a=69;
+// //     int *b;
+// //     b=&a;
+// //     int **c;
+// //     c=&b;
+// //     printf("\n1. Value of a : %d",a);
+// //     printf("\n2. address of a : %u",&a);
+// //     printf("\n3. value of b : %u",b);
+// //     printf("\n4. address of b : %u",&b);
+// //     printf("\n5. value at address of a : %d",*b);
+// //     printf("\n6. value of c : %u",c);
+// //     printf("\n7. address of c : %u",&c);
+// //     printf("\n8. value at address of b : %d",*c);
+// //     printf("\n9. value at address of a : %d",**c);
+// // }//1 5 9  ----////
+// // //2 3 8 
+// // //4 6     ----> // 7 will be single value
+
+
+
+
+// #include<stdio.h>
+// void main()
+// {
+//     // int size;//6
+//     // printf("\nEnter the size of the array : ");
+//     // scanf("%d",&size);
+//     // int Array[size];
+//     // printf("\nEnter array elements : ");
+//     // for(int i=0;i<size;i++) //for(int i=0;i<=size-1;i++)
+//     // {
+//     //     scanf("%d",&Array[i]);
+//     // }
+//     // printf("\nArray elements are : ");
+//     // for(int i=0;i<size;i++) //for(int i=0;i<=size-1;i++)
+//     // {
+//     //     printf("%d ",Array[i]);
+//     // 
+//     //         for(int i=0;i<size;i++)
+//     //     printf("\nAddress of %d is %d",i,&Array[i]);
+//     // }
+// //     int size;//6  //Accessing the array with pointer
+// //     printf("\nEnter the size of the array : ");
+// //     scanf("%d",&size);
+// //     int Array[size];
+// //     printf("\nEnter array elements : ");
+// //     for(int i=0;i<size;i++) //for(int i=0;i<=size-1;i++)
+// //     {
+// //         scanf("%d",&Array[i]);
+// //     }
+// //     int *ptr;
+// //     ptr=Array;
+// //     for(int i=0;i<size;i++)
+// //     {
+// //         printf("\n Value at %d is %d ",i,*ptr);
+// //         *ptr++;
+// //     }
+// // }
+  
+    
+//   //  printf("%u %u %u %u",a,b,*b,*b++);
+    
+    
+//     //   printf("\n%d ",a);  
+//     //   printf("\n%d ",&a);  
+//     //   printf("\n%d ",b);  
+//     //   printf("\n%d ",&b);  
+//     //   printf("\n%u ",*b);  
+    
+    
+    
+    
+// }
+
+
+#include <stdio.h>
+// void func() {
+//     static int i = 0;
+//     printf("%d ", i);
+//     i++;
+    
+// }
+int main() {
+//Addition of 2 values with pointers
+//without accessing a,b, add values in them
+    int a,b;
+    scanf("%d%d",&a,&b);
+    int sum,*v1,*v2;
+    v1=&a;
+    v2=&b;
+    sum=*v1+*v2;
+    printf("SUM : %d ",sum);
+
+    return 0;
+}
+
+
+
+
+
+
+

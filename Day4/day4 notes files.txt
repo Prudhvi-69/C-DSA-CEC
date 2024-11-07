@@ -1,0 +1,72 @@
+Local variables : their scope is limited to the function
+	they are declared only.
+
+Global Variable : their scope is allowed anywhere in
+	the entire program..
+
+Static variable : this will be used to retain the values from previous function calls and get the value. 
+***For a static variable, you can initialize the value only once.....
+
+
+
+& -> address of   ---> can be used for any variable
+
+* -> value at     -----> can be used ONLY for pointer variables
+
+
+Pointer : a pointer can store the address of a variable and access it without actually amking use of the OG variable.
+
+Double pointer : this can access/store the address of the pointer which is already storing the address of another variable.
+
+
+Arrays : 
+They are used for storing multiple values of same type under one common name with continuous memory allocation.
+	** To access the values inside the array, you need to do that by mentioning the index values.
+	** Index values in an Array will start from 0 to size-1.
+	** If the size of the array is : 5, it's index values will range from 0,1,2,3,4 (as we start from 0, it will end at 4 as last value)
+
+** The array accessing and insertions of elements can be done using loops, because we need to repeat the same set of steps multiple times.
+
+
+Null pointer : It is a pointer used to make the pointer stay stable when running the program or until the pointer is being allocated any value.
+The default value we are going to give is, NULL, (all caps),
+
+Ex: int *ptr=NULL;
+
+
+
+
+
+
+int *ptr;   -> wild pointer
+
+int *ptr=NULL; -> null pointer
+
+
+int x;
+
+int* y;
+y=&x
+
+
+
+
+
+int foo(int n) {		//4,3,2,1
+    if (n <= 1) return 1;
+    return n * foo(n - 1);
+}
+
+4 * f(3) ;
+4 * (3 * f(2)) ;
+4 * (3 * (2 * f(1)));
+4 * (3 * (2 * 1));
+
+
+24
+
+
+
+
+
+
