@@ -1,0 +1,58 @@
+Array[ size ]  -> single dimension array
+
+Array[ no_of_1Darrays][ how_many_in_each ]
+
+Declaration of a 2D array :
+
+synatx : datatype Array_name [ rows ] [ columns ]; 
+
+Ex: int table[ 2 ] [ 3 ]; 
+
+
+
+String : is known as 
+
+-> character type array 
+-> collection of characters
+-> group of characters
+-> combination of characters
+-> sequence of characters
+
+** String starting index starts from 0, ends with n-1 (n is size of string)
+** String is a special child in the family of datatypes
+** After the most recent character entered as input, there will be a 
+NULL character representing = '\0'
+
+
+
+Feedback link :
+
+https://tinyurl.com/nov9-stu-feedback
+
+
+
+
+
+
+
+Test Link : 
+
+https://tinyurl.com/nov9-test
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
