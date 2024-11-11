@@ -1,0 +1,136 @@
+String Comparison : 
+
+strcmp() : it is function to compare two strings, and if they both are equal, it will return an integer result as 0, if not equal, it may return 1 or -1 depending on which string's character ASCII value is higher.
+
+syntax :   strcmp(string1, string2); 
+
+PAVAN
+DINESH
+String 1 : PAVAN    -> 80 
+String 2: DINESH	-> 68
+Result : 1
+
+dinesh
+pavan
+String 1 : dinesh	-> 100
+String 2: pavan    ->   112
+Result : -1
+
+pavan
+pavan
+String 1 : pavan
+String 2: pavan
+Result : 0
+
+
+shivam
+suprit
+String 1 : shivam
+String 2: suprit
+Result : -1
+
+
+
+String concatanation (addition): we have strcat() string function to add two strings, which is going to two inputs, as strings and store the result in the first mentioned string and also keep the 2nd one as it is.
+
+syntax : strcat(string1, string2); 
+
+
+String 1 : shivam
+String 2: suprit
+							------------->>>> strcat(str1,str2);
+After changes in Strings :
+String1 : shivamsuprit
+String2 : suprit
+
+
+sum = 10;
+Array[ i ] = 12;
+
+sum = sum + Array[ i ]
+
+str1 = str1 + str2 
+
+
+
+String Reverse : this function is going to reverse the characters in the given input String, and store in the same string.
+
+syntax : strrev(string);
+
+Ex: 
+input : str1 = "chaitra" 
+strrev(str1);
+output : str1 = "artiahc"
+
+
+
+
+
+String length : this function is going to take one string input
+and display an integer result, by counting the total number of characters in the string.
+
+syntax : strlen(string);
+
+ex: str1 = "chaitra"
+int length;
+length= strlen(str1);
+printf("\nLength of string1 is : %d ",length);
+Output : Length of string1 is : 6
+
+strupr() : this string function is going to convert every alphabet in it into upper case alphabets. It takes 1 string input, and will do the conversion in the same.
+
+
+strlwr() : this string function is going to convert every alphabet in it into lower case alphabets. It takes 1 string input, and will do the conversion in the same.
+
+
+strcpy() : this function is used for copying strings from source to destination, by taking 2 string inputs, and it will copy from the 2nd string and replace everything inside 1st string.
+
+syntax : strcpy(destination, source);
+
+
+
+
+train
+|    |
+
+1-> 
+nrait
+  |  |
+2-> 
+niart
+   ||  
+3rd-> 
+
+
+
+Structure : a data type, where it is going to contain data of different types.
+** Multiple values of multiple types.
+There are some rules for structures.
+Rules : 
+1. Use keyword struct when declaring a structure.
+2. Variables present inside structure are known as Structure members.
+3. You cannot directly access the structure members.
+4. You can access them with the help of a structure variable.
+5. You cannnot assign values to structure members inside structure, you can only declare them and leave.
+6. A structure has to be declared/defined outside the main function.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
