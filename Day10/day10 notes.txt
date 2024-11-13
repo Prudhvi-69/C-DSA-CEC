@@ -1,0 +1,48 @@
+if ( boys == false )
+	stay.silent();
+
+if ( ! boys ! = true )
+	stay.silent();
+
+else
+	youCan.talk();
+
+//Applicable for all students
+
+
+
+data : 108 35 77 69 99 88 57 56 128 26 96 199
+
+preoder : 108 35 26 77 69 57 56 99 88 96 128 199
+inorder : 26 35 56 57 69 77 88 96 99 108 128 199
+postorder : 26 56 57 69 96 88 99 77 35 199 128 108 
+
+
+ 
+Preorder Traversal : 108 35 26 77 69 57 56 99 88 96 128 199 
+Inorder Traversal :  26  35  56  57  69  77  88  96  99  108  128  199  
+Postorder Traversal : 26 56 57 69 96 88 99 77 35 199 128 108 
+
+
+
+
+
+data : 96 360 180 90 46 20 420 69 106 80 156 100 19 22 42 51
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
