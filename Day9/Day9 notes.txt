@@ -1,0 +1,133 @@
+Stack : Stack is a data structure which follows the process of Last In First Out
+or First In Last Out.
+
+Whichever the element may enter first into the stack, will be exiting at last.
+Whichever the element may enter last into the stack, will be exiting at first.
+
+** Top most element will be pointed by a pointer known as top/TOS/top of stack
+
+** Insertions into the Stack are known as Pushing.
+** Deletions from the Stack are known as Popping.
+** Looking at the top most element is known as Peeking.
+** To display all elements from the Stack, you need to pop out, all the elements from the top to bottom.
+
+** If you are trying to push the elements into the Stack when the Size of Stack is full, it is known as Overflow.
+** If you are trying to pop the elements from the Stack when there are no elements at all or when the Stack is empty, it is known as Underflow.
+
+** In the Stack, before pushing any elements, the top will be pointing at -1.
+
+
+
+
+
+| icon |
+    |
+    |___ _________ ________
+   /			\ 						 \						\
+veh     upgrade    location			settings
+  |
+  |___ ____ _____
+ /			\			\				\
+bike  car   truck    bus/jeep
+
+
+
+
+
+Trees : it is a data structure, where it is going to contain multiple branches starting from one node, that node is known as ROOT node.
+
+** Every node that has been branched out from root can be called as child node of ROOT node.
+** Every child node may contain multiple sub-child nodes, or directly no child nodes at all.
+** If a node is containing no child nodes after it, it is known as LEAF node.
+** Every child node's, previous node is known as it's Parent Node.
+** If one Parent node is having multiple child nodes, each node to one another can call them siblings.
+** In a tree, if every node is having atmost 2 child nodes, then that tree is known as Binary Tree.
+** 
+
+
+
+
+
+
+
+
+
+
+
+
+https://tinyurl.com/nov12-stu-feedback
+
+
+
+https://tinyurl.com/nov12-test
+
+
+
+
+Binary Search Tree : This is a Bianry Tree, which is containing the values in sorted order from Left-Sub-Tree to Root Node to Right-Sub-Tree
+
+** The value of the Root node must be, greater than the all values in 
+Left-Sub-Tree individually.
+
+** The values in the Right-Sub-Tree must be greater than the Root value.
+
+** The values in a Binary Search Tree can be access in 3 ways.
+	1. Preorder traversal
+	2. Inorder traversal
+	3. Postorder traversal
+** Preorder Traversal : It is the way of accessing the values in the tree, where we access the ROOT node first, then we'll go to Left-Sub-Tree next, after finishing the entire LST, we'll go to Right-Sub-Tree to access the values in same pattern as :
+		
+		root --> left --> right
+** Inorder Traversal : It is the way of accessing the values in the tree, where we access the Left-Sub-Tree first, after finishing the entire LST, we'll access the ROOT node, then we'll go to Right-Sub-Tree.
+It will be done in the pattern of : 
+		
+		left  --> root --> right
+
+** Postorder Traversal : It is the way of accessing the values  in the tree, where we acess the Left-Sub-Tree first, after finishing it, we'll access the entire Right-Sub-Tree and after finishing it, at the end we'll go and access the ROOT node. It will be in the pattern of :
+
+		left  --> right --> root
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
