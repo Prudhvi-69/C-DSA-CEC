@@ -32,6 +32,15 @@ data : 96 360 180 90 46 20 420 69 106 80 156 100 19 22 42 51
 
 
 
+feedback
+
+https://tinyurl.com/nov13-stu-feedback
+
+
+test link :
+
+https://tinyurl.com/nov13-test
+
 
 
 
